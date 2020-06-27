@@ -1,0 +1,268 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Roboto:wght@400;700&family=Sen:wght@400;700&display=swap%27');
+
+body{
+    font-family: Lato;
+}
+h1{
+    margin: 0;
+}
+
+p{
+    font-family: Georgia, 'Times New Roman', serif;
+    font-size: 14px;
+    line-height: 20px;
+}
+b{
+    color: #31CC70;
+    font-weight: bold;
+}
+
+a{
+    text-decoration: none;
+}
+
+img{
+    display: block;
+    max-width: 100%;
+}
+
+.container{
+    max-width: 1600px;
+    margin: 0 auto;
+}
+
+.container::before, .container::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.header{
+    background-color: #0B0A0D;
+    padding-top: 60px;
+
+}
+
+.header img{
+    margin: 0 auto;
+}
+
+.perfil{
+    background-color: #0B0A0D;
+    padding-top: 100px;
+
+}
+
+.perfil span{
+    width: 9px;
+    height: 9px;
+    border-radius: 50%;
+    background-color: #37D36A;
+    display: inline-block;
+    margin-bottom: 1.3px;
+    margin-right: 1px;
+}
+
+.perfil span.designer{
+    background-color: #D33737;
+}
+
+.perfil .container{
+    max-width: max-content;
+    margin: 0 auto;
+}
+
+
+
+.card{
+    max-width: 550px;
+    background-color: #0D0C10;
+    border-radius: 15px;
+    box-shadow: 4px 4px 5px 0px rgba(0,0,0,0.25);
+    float: left;
+}
+
+.card:first-child{
+    margin-right: 90px;
+}
+
+.card h1{
+    font-size: 24px;
+    font-family: "Lato";
+    color: white;
+    font-weight: bold;
+    display: inline-block;
+    margin-right: 5px;
+}
+
+.card > img{
+    float: left;
+    margin-top: 30px;
+    margin-left: 40px;
+}
+
+.card::before, .card::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.cardInfo{
+    float: left;
+    margin-top: 60px;
+    margin-left: 30px;
+}
+.cardInfo::before, .cardInfo::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.card ul li{
+    display: inline-block;
+    font-family: "Lato";
+    font-size: 16px;
+    font-weight: bold;
+    color: #37D36A;
+    padding-top: 2px;
+}
+
+.card ul li.designer{
+    color: #D33737;
+}
+
+.card ul li.designer::before{
+    content: "|";
+    color: #DFDFDF;
+     margin-left: 3px;
+     margin-right: 5px;
+}
+
+.listIcon li{
+    padding-right: 7px;
+    margin: 0;
+    padding-bottom: 30px;
+}
+
+.card p{
+    color: white;
+    font-family: "Lato";
+    font-size: 18px;
+    margin-top: 25px;
+    margin-bottom: 5px;
+    margin-right: 60px;
+}
+
+.seta img{
+    margin: 0 auto;
+    max-width: max-content;
+    padding-top: 100px;
+    display: block;
+    padding-bottom: 40px;
+}
+
+.clientes{
+    background-color: #0F0D11;
+    padding-bottom: 120px;
+}
+
+.clientes .container{
+    max-width: max-content;
+    margin: 0 auto;
+}
+
+.cliTitle{
+    margin: 0 auto;
+    max-width: max-content;
+    margin-top: 120px;
+    margin-bottom: 70px;
+}
+
+.clientes h1{
+    text-align: center;
+    color: white;
+    font-size: 36px;
+    font-family: "Sen";
+    letter-spacing: 1px;    
+}
+
+.clientes h1:after{
+    content: "";
+    display: block;
+    margin-left: auto;
+    width: 230px;
+    height: 2px;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    background-color: #37D36A;
+}
+
+.cliTitle p{
+    text-align: right;
+    color: white;
+    font-family: "Sen";
+    font-size: 14px;
+}
+
+.cliente{
+    width: 548px;
+    display: inline-block;
+    margin-left: 60px;
+    margin-right: 60px;
+}
+
+.clienteimg{
+    background-color: #0B0A0D;
+    border-radius: 15px;
+    box-shadow: 4px 4px 5px 0px rgba(0,0,0,0.25);
+}
+
+.cliente img{
+    margin: 0 auto;
+    padding-top: 40px;
+}
+
+.cliente h2{
+    color: white;
+    font-family: "Sen";
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.cliente h3{
+    color: white;
+    display: block;
+    border: 3px solid #D33737;
+    width: max-content;
+    margin-top: 20px;
+    margin-left: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    float: left;
+    font-size: 16px;
+    font-family: "Lato";
+    font-weight: bold ;
+}
+
+.cliente a{
+    display: block;
+    float: right;
+    color: #37D36A;
+    max-width: max-content;
+    background-color: #18151C;
+    padding: 14px 30px;
+    font-size: 18px;
+    font-family: "Lato";
+    border-radius: 10px;
+    box-shadow: 3px 3px 6px 0px rgba(0,0,0,0.15);
+    margin-top: 20px;
+}
+
+.clienteLink::before, .clienteLink::after{
+    content: "";
+    display: table;
+    clear: both;
+}
